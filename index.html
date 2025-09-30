@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Seongje Kim — CV</title>
+  <meta name="description" content="Seongje Kim — Machine Vision • Robotics • Smart Factory" />
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+  <style>
+    :root{
+      --bg:#0b0d10; --card:#12161c; --text:#e8eef6; --muted:#9fb0c6; --acc:#69a7ff; --chip:#1b2330;
+      --link:#8ec6ff; --ok:#9ef7b7;
+      --maxw:980px; --radius:16px;
+    }
+    @media (prefers-color-scheme: light){
+      :root{ --bg:#f7f9fc; --card:#ffffff; --text:#0b1220; --muted:#4b5b74; --acc:#2a66ff; --chip:#eef3fb; --link:#1b5cff; --ok:#0aa35c;}
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Inter,Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji";}
+    a{color:var(--link);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:var(--maxw);margin:0 auto;padding:28px 18px 80px}
+    header{display:flex;flex-wrap:wrap;gap:18px;align-items:flex-start;justify-content:space-between;margin-bottom:22px}
+    .title h1{margin:0;font-size:28px;line-height:1.2}
+    .subtitle{color:var(--muted);margin-top:4px}
+    .actions{display:flex;gap:10px;flex-wrap:wrap}
+    .btn{display:inline-flex;align-items:center;gap:8px;background:var(--acc);color:white;padding:10px 14px;border-radius:12px;font-weight:600;border:0}
+    .btn.secondary{background:transparent;color:var(--acc);border:2px solid var(--acc)}
+    nav{position:sticky;top:0;background:linear-gradient(to bottom,var(--bg),transparent);backdrop-filter:saturate(1.2) blur(4px);z-index:10;padding:6px 0;margin:0 0 12px 0}
+    .tabs{display:flex;flex-wrap:wrap;gap:8px}
+    .chip{padding:8px 12px;border-radius:999px;background:var(--chip);color:var(--muted);font-weight:600}
+    main{display:grid;grid-template-columns:1.1fr 1.9fr;gap:18px}
+    @media (max-width:960px){ main{grid-template-columns:1fr} }
+    section{background:var(--card);border-radius:var(--radius);padding:18px}
+    h2{margin:0 0 12px 0;font-size:20px}
+    h3{margin:14px 0 6px 0;font-size:16px}
+    .grid{display:grid;gap:10px}
+    .kv{display:grid;grid-template-columns:110px 1fr;gap:6px 14px}
+    .kv div:nth-child(odd){color:var(--muted)}
+    ul{margin:8px 0 0 18px}
+    li{margin:4px 0}
+    .tag{display:inline-block;padding:4px 10px;border-radius:999px;background:var(--chip);color:var(--muted);font-size:13px;margin:2px 6px 2px 0}
+    .meta{color:var(--muted);font-size:14px}
+    footer{margin-top:22px;color:var(--muted);font-size:13px}
+    .ok{color:var(--ok);font-weight:700}
+    .list > li { margin-bottom:8px; }
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace}
+    /* print */
+    @media print{
+      nav,.actions{display:none !important}
+      .wrap{padding:0}
+      main{grid-template-columns:1fr}
+      section{break-inside:avoid}
+      a{color:inherit;text-decoration:none}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="title">
+        <h1>Seongje Kim</h1>
+        <div class="subtitle">Ph.D. Candidate · Machine Vision &amp; Robotics · Smart Factory</div>
+        <div class="meta">
+          Hanyang University · Division of Mechanical Engineering (HK Lab) · Seoul / Ansan, Korea
+        </div>
+      </div>
+      <div class="actions">
+        <a class="btn" href="D:/Michael/2025/09.취업/0.CV/cv20250917.pdf" download>Download PDF</a>
+        <a class="btn secondary" href="mailto:chack11200529@gmail.com">Gmail</a>
+        <a class="btn secondary" href="mailto:chack1120@hanyang.ac.kr">HanyangMail</a>
+        <a class="btn secondary" href="https://www.linkedin.com/in/michaelseongjekim/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn secondary" href="https://scholar.google.co.kr/citations?view_op=list_works&hl=ko&hl=ko&user=Ga6MxZsAAAAJ" target="_blank" rel="noopener">GoogleScholar</a>
+        <a class="btn secondary" href="tel:+821047145154">+82 10-4714-5154</a>
+      </div>
+    </header>
+
+    <nav>
+      <div class="tabs">
+        <a class="chip" href="#education">Education</a>
+        <a class="chip" href="#interests">Research Interests</a>
+        <a class="chip" href="#publications">Publications</a>
+        <a class="chip" href="#conferences">Conferences</a>
+        <a class="chip" href="#patents">Patents</a>
+        <a class="chip" href="#awards">Awards</a>
+        <a class="chip" href="#skills">Skills</a>
+        <a class="chip" href="#projects">Projects</a>
+      </div>
+    </nav>
+
+    <main>
+      <!-- Left column -->
+      <section id="education">
+        <h2>Education</h2>
+        <div class="grid">
+          <div>
+            <h3>Hanyang University — Ph.D. Student (Mechanical Engineering)</h3>
+            <div class="meta">Mar. 2021 – Present · Advisor: Prof. Jonghun Yoon · GPA 4.0/4.5 · Seoul, Korea</div>
+          </div>
+          <div>
+            <h3>Hanyang University — B.S. in Mechanical Engineering</h3>
+            <div class="meta">Mar. 2016 – Feb. 2021 · GPA 3.58/4.5 · Ansan, Korea</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="interests">
+        <h2>Research Interests</h2>
+        <div>
+          <span class="tag">Smart Factory</span>
+          <span class="tag">Machine Vision</span>
+          <span class="tag">Machine Learning</span>
+          <span class="tag">Object Detection</span>
+          <span class="tag">Image Segmentation</span>
+        </div>
+      </section>
+
+      <!-- Right column -->
+      <section id="publications">
+        <h2>Publications (SCIE/ESCI)</h2>
+        <ol class="list">
+          <li><b>Seongje Kim</b>, Jonghun Yoon, “VLM-integrated 3D perception model for robust robotic grasping adapted to deformable sacks with arbitrary shapes (Under review),” <i>Journal of Intelligent Manufacturing</i>, (2025).</li>
+          <li><b>Seongje Kim</b>, Thong Phi Nguyen, Jonghun Yoon, “A Systematic Review of Machine Vision Applications in Factory and Manufacturing Processes: From Quality Control to Predictive Diagnostics,” <i>IJPEM-GT</i>, (2025).</li>
+          <li><b>Seongje Kim</b>, Kwang-Hee Lee, Jonghun Yoon, “Vision-centric 3D point cloud technique and custom gripper process for parcel depalletisation,” <i>Journal of Intelligent Manufacturing</i>, (2024).</li>
+          <li>Van Doi Truong, Hyun-Kyo Lim, <b>Seongje Kim</b>, Than Trong Khanh Dat, Jonghun Yoon, “Contagious infection-free medical interaction system with machine vision controlled by remote hand gesture during an operation,” <i>Computational and Structural Biotechnology Journal</i>, (2024).</li>
+          <li><b>Seongje Kim</b>, Van-Doi Truong, Kwang-Hee Lee, Jonghun Yoon, “Revolutionizing Robotic Depalletizing: AI-Enhanced Parcel Detecting with Adaptive 3D Machine Vision and RGB-D Imaging for Automated Unloading,” <i>Sensors</i>, (2024).</li>
+        </ol>
+      </section>
+
+      <section id="conferences">
+        <h2>Conferences</h2>
+        <ol class="list">
+          <li><b>Seongje Kim</b>, Kwang Hee Lee, Jonghun Yoon, “3D point cloud approach and bespoke gripper system for vision-guided parcel depalletisation,” <i>5th Symposium on Pattern Recognition and Applications</i>, Istanbul, Turkey (Nov. 2024) — <span class="ok">Oral</span></li>
+          <li><b>Seongje Kim</b>, Kwang Hee Lee, Jonghun Yoon, “Machine vision AI-based parcel detection for automated robotic depalletization through adaptive boundary detection using 3D vision,” <i>IROS</i>, Abu Dhabi, UAE (Oct. 2024) — Poster</li>
+          <li>김성제, 임현교, 이광희, 윤종헌, “한국정밀공학회,” 2023 추계학술대회, Samcheok, Korea (Nov. 2023) — <span class="ok">Oral</span></li>
+          <li>Thong P Nguyen, <b>Seongje Kim</b>, Hyun-Kyo Lim, Doi Van Truong, Jonghun Yoon, “Proceedings of the World Congress on Electrical Engineering and Computer Systems and Science,” Avestia Publishing, London, UK (Aug. 2023) — <span class="ok">Oral</span></li>
+          <li>김성제 외, “한국정밀공학회,” 2023 춘계학술대회, Jeju, Korea (May. 2023) — Poster</li>
+          <li>임현교 외, “차세대 모빌리티 HMI 시스템,” 한국정밀공학회, Jeju, Korea (May. 2023) — <span class="ok">Oral</span></li>
+          <li>Thong Phi Nguyen, Hyunggyu Kim, <b>Seongje Kim</b>, Jooyeop Han, Jonghun Yoon, “IEEE CISOSE,” San Francisco, United States (Aug. 2022) — <span class="ok">Oral</span></li>
+        </ol>
+      </section>
+
+      <section id="patents">
+        <h2>Patents</h2>
+        <ul class="list">
+          <li>윤종헌, 원찬희, <b>김성제</b>, “스플라인 샤프트의 자동화 시스템 및 자동화 평가 방법,” <span class="mono">KR-10-2323067</span>.</li>
+        </ul>
+      </section>
+
+      <section id="awards">
+        <h2>Awards &amp; Honors</h2>
+        <ul class="list">
+          <li>이공분야 학문후속세대 지원사업 박사과정생연구장려금지원 — NRF, Korea (Aug. 2025)</li>
+          <li>BK21 참여대학원생 우수학술활동 성과 최우수 연구상 — Hanyang University (Feb. 2025)</li>
+        </ul>
+      </section>
+
+      <section id="skills">
+        <h2>Skills &amp; Techniques</h2>
+        <div class="kv">
+          <div>Programming</div><div>Python, C#, Matlab</div>
+          <div>CAE/CAD</div><div>CATIA, ANSYS, ABAQUS</div>
+          <div>Robotics & Vision</div><div>UR Robot arm; 2D/3D cameras; Line scanner; DIC; UTM</div>
+          <div>Comms</div><div>PLC, RS232, TCP/IP</div>
+          <div>Fabrication</div><div>3D Printing (SLA, SLM)</div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <ul class="list">
+          <li>자동화 택배 하차 시스템을 위한 머신러닝·비전 기반 개별 하차 시스템 개발 — NRF, Korea (Sep. 2025 – Present)</li>
+          <li>RIAM 러닝 팩토리 플랫폼 — KITECH, Korea (Jan. 2025 – Present)</li>
+          <li>Open-Lab 육성지원 (대학·기업·출연 연계형) — MSIT, Korea (Jul. 2025 – Present)</li>
+          <li>자율주행 중 기능 제어를 위한 Cabin Remote HMI — KITECH, Korea (Aug. 2023 – Present)</li>
+          <li>170k급 자유곡률 폐단면 냉간 롤 포밍/벤딩 공정기술 — KIAT, Korea (Apr. 2023 – Present)</li>
+          <li>지능정보 로봇·AI 객체인식 기반 낱소포 고효율 하차 — KITECH (Apr. 2022 – Apr. 2025)</li>
+          <li>비전 기반 자동화 파트 조립 및 사출 검출 — Gwangjin Machinery, Korea (May 2024 – Jun. 2025)</li>
+          <li>다중 로봇 유연 케이블 인식 테스트베드 — KIMM, Korea (Jul. 2023 – Dec. 2024)</li>
+          <li>스마트웨어 비전 인식률 평가용 데이터 수집 — KITECH, Korea (Jun. 2023 – Oct. 2023)</li>
+          <li>차세대 HMI 연구 (사용자 별 음성 인식) — Hyundai R&amp;D, Korea (Jul. 2022 – Mar. 2023)</li>
+          <li>인장시험 AI 변형률 측정 시스템 — KIMS, Korea (Jul. 2021 – Mar. 2022)</li>
+          <li>공구 가공용 휠 드레싱 시점 예측 비전 시스템 — Hansong M&amp;T (Jun. 2021 – Oct. 2021)</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      Source: CV (2025-09-17). :contentReference[oaicite:0]{index=0}
+    </footer>
+  </div>
+</body>
+</html>
